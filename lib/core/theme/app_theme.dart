@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  // More beginner-style color choices
   static const Color primaryColor = Colors.deepPurple;
   static const Color secondaryColor = Colors.purpleAccent;
   static const Color successColor = Colors.lightGreen;
@@ -19,10 +18,8 @@ class AppTheme {
 
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
-        fillColor: Colors.yellow[50], // light background
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(6), // smaller radius
-        ),
+        fillColor: Colors.yellow[50],
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(6)),
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(6),
           borderSide: BorderSide(color: Colors.grey.shade400),
@@ -43,7 +40,7 @@ class AppTheme {
           foregroundColor: Colors.white,
           minimumSize: const Size(double.infinity, 44),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6)),
-          elevation: 3, // visible but simple
+          elevation: 3,
         ),
       ),
     );
